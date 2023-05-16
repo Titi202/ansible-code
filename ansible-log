@@ -1,0 +1,47 @@
+2023-05-14 19:51:57,841 p=2387 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/inv.yml with auto plugin: We were unable to read
+either as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1
+column 2 (char 1)  Syntax Error while loading YAML.   did not find expected <document start>
+The error appears to be in '/home/ec2-user/inv.yml': line 3, column 1, but may be elsewhere in
+the file depending on the exact syntax problem.  The offending line appears to be:
+34.238.27.238 ^ here
+
+2023-05-14 19:51:57,842 p=2387 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/inv.yml with yaml plugin: We were unable to read
+either as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1
+column 2 (char 1)  Syntax Error while loading YAML.   did not find expected <document start>
+The error appears to be in '/home/ec2-user/inv.yml': line 3, column 1, but may be elsewhere in
+the file depending on the exact syntax problem.  The offending line appears to be:
+34.238.27.238 ^ here
+
+2023-05-14 19:51:57,842 p=2387 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/inv.yml with ini plugin: /home/ec2-user/inv.yml:10:
+Section [children:devqa] has unknown type: devqa
+
+2023-05-14 19:51:57,842 p=2387 u=ec2-user n=ansible | [WARNING]: Unable to parse /home/ec2-user/inv.yml as an inventory source
+
+2023-05-14 19:51:57,842 p=2387 u=ec2-user n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-05-14 19:51:59,534 p=2387 u=ec2-user n=ansible | 34.238.27.238 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Warning: Permanently added '34.238.27.238' (ECDSA) to the list of known hosts.\r\nPermission denied (publickey,gssapi-keyex,gssapi-with-mic).",
+    "unreachable": true
+}
+2023-05-14 19:53:10,628 p=2451 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/inv.yml with auto plugin: We were unable to read
+either as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1
+column 2 (char 1)  Syntax Error while loading YAML.   did not find expected <document start>
+The error appears to be in '/home/ec2-user/inv.yml': line 3, column 1, but may be elsewhere in
+the file depending on the exact syntax problem.  The offending line appears to be:
+34.238.27.238 ^ here
+
+2023-05-14 19:53:10,628 p=2451 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/inv.yml with yaml plugin: We were unable to read
+either as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1
+column 2 (char 1)  Syntax Error while loading YAML.   did not find expected <document start>
+The error appears to be in '/home/ec2-user/inv.yml': line 3, column 1, but may be elsewhere in
+the file depending on the exact syntax problem.  The offending line appears to be:
+34.238.27.238 ^ here
+
+2023-05-14 19:53:10,628 p=2451 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/inv.yml with ini plugin: /home/ec2-user/inv.yml:10:
+Section [children:devqa] has unknown type: devqa
+
+2023-05-14 19:53:10,629 p=2451 u=ec2-user n=ansible | [WARNING]: Unable to parse /home/ec2-user/inv.yml as an inventory source
+
+2023-05-14 19:53:10,629 p=2451 u=ec2-user n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+

@@ -1,0 +1,17 @@
+.bash_history
+bash_profile
+.bashrc
+.viminfo
+.bash_logout
+.ansible
+.ssh
+web.yml
+.web.yml.swp
+.ansible.cfg.swp
+.inv.yml.swp
+.inv.yml.swo
+inv.yml
+.ansible.cfg.swp
+gitignore
+ansible.log 
+keypair.pem
